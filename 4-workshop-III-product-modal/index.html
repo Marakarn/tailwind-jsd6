@@ -3,7 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Razer shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body></body>
+  <body class="bg-slate-200 w-screen h-screen flex items-center justify-center">
+    <main class="xs:w-5/12 h-7/12 shadow-lg">
+      <div class="card w-full h-auto bg-white p-[32px] rounded-lg flex items-center sm:items-start flex-col sm:flex-row">
+        <div class="w-6/12 h-[140px]">
+          <img class="object-cover sm:h-40" src="images/headphone.png" alt="headphone">
+        </div>
+        <div class="mr-[10px] flex flex-col">
+        <p class="text-xs w-[75px] text-center bg-black pt-[1px] pb-[1px] pl-[3px] pr-[3px] rounded-xl text-white">Free shiping</p>
+        <h3 class="text-xl mb-5">Razer Kraken Kitty Edt Gaming Headset Quartz</h3>
+        <p class="text-xs line-through">$700</p>
+        <h2 class="text-2xl font-bold">$599</h2>
+        <p class="text-xs text-slate-400 mb-5">The offer is valid until April 3 of as long as stock lasts!</p>
+        <button class="bg-blue-500 w-100 rounded text-xs p-[10px] text-white shadow-[0_5px_0_0_rgba(29,78,216,1)]">Add to cart</button>
+        <div class="flex mt-5 items-center">
+          <div class="w-[8px] h-[8px] bg-green-300 rounded-full mr-2"></div><p class="text-xs">50+ pcs. in stock.</p></div>
+          <div class="mt-5 flex"> 
+            <button class="border-2 w-5/12 border-grey rounded-md p-2 mr-2 text-xs flex items-center justify-center"><img class="w-1/6 mr-2" src="images/weight.png" alt="weight"> Add to card</button>
+            <button class="border-2 w-7/12 border-grey rounded-md p-2 text-xs flex items-center justify-center"><img class="w-1/6 mr-2" src="images/heart.png" alt="heart"> Add to wishlist</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
